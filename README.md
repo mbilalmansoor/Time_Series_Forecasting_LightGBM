@@ -1,6 +1,12 @@
 # Advanced Time-Series Recursive Forecasting Engine
 
-A high-performance machine learning pipeline built with **Python**, **Pathlib**, and **LightGBM** designed to aggregate raw text transaction logs recursively, construct deep temporal features, and perform multi-step recursive quantile time-series forecasting.
+An enterprise-grade time-series pipeline built to parse unstructured transactional logs recursively, engineer robust temporal variations, and deliver multi-step recursive quantile projections.
+
+📬 **Stack Profile:**
+![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-GBDT-green?logo=scikit-learn&logoColor=white)
+![uv](https://img.shields.io/badge/Package%20Manager-uv-purple)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
@@ -30,10 +36,10 @@ Time-series forecasting over extended horizons suffers from variance accumulatio
 ```text
 time-series-forecasting/
 │
-├── .venv/                          # Project virtual environment
-├── .gitignore                      # Configured to ignore all tracking datasets (*.csv)
+├── .gitignore                      # Configured to ignore all tracking datasets (*.csv) & local environments
 ├── main.py                         # Primary engine script containing preprocessing and modeling
-├── data/                           # Local runtime sandbox (Git ignored)
-│   ├── raw_source/                 # Source directory for unprocessed logs
-│   └── processed_sink/             # Target repository for master logs and projections
+├── pyproject.toml                  # Project metadata and lock dependencies for uv setup
 └── README.md                       # System documentation
+```
+# Automatically creates an optimized virtual environment (.venv) and maps isolated package locks
+uv sync
