@@ -44,8 +44,8 @@ time-series-forecasting/
 
 ### 🚀 Setup & Execution Guide
 
+**Initialize the virtual environment and sync dependencies automatically
 
-Initialize the virtual environment and sync dependencies automatically
 ```bash
 uv sync
 
