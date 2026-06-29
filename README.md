@@ -40,11 +40,13 @@ time-series-forecasting/
 ├── main.py                         # Primary engine script containing preprocessing and modeling
 ├── pyproject.toml                  # Project metadata and lock dependencies for uv setup
 └── README.md                       # System documentation
-```
+
+
 ### 🚀 Setup & Execution Guide
 
-```bash
+
 Initialize the virtual environment and sync dependencies automatically
+```bash
 uv sync
 
 uv run main.py
