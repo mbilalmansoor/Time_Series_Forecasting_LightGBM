@@ -41,5 +41,10 @@ time-series-forecasting/
 ├── pyproject.toml                  # Project metadata and lock dependencies for uv setup
 └── README.md                       # System documentation
 ```
-# Automatically creates an optimized virtual environment (.venv) and maps isolated package locks
+### 🚀 Setup & Execution Guide
+
+```bash
+Initialize the virtual environment and sync dependencies automatically
 uv sync
+
+uv run main.py
